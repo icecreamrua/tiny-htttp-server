@@ -95,7 +95,7 @@ htttpServer
 ### 实现结构
 
 主进程fork出多个工作子进程，每个子进程拥有一个listen socket 监听同一个地址和端口，拥有一个epoll循环。
-![image](images/2.jpg)
+![image](images/2.png)
 
 ## 未实现
 
